@@ -6,6 +6,7 @@ tbl = pd.read_csv('resData/bmi.csv')
 
 # 컬럼(열)을 자르고 정규화하기
 label = tbl['label']
+# 0~1 사이의 값으로 정규화
 w = tbl['weight'] / 100
 h = tbl['height'] / 200
 # 정규화된 몸무게와 키를 데이ㅐ터프레임으로 변환
