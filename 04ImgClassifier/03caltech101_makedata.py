@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 # 분류 대상 카테고리 5개 선택
 caltech_dir = './caltech101/101_ObjectCategories'
 categories = ['chair', 'camera', 'butterfly', 'elephant', 'flamingo']
-nb_classes = len(categories)
+nb_classes = len(categories) # 크기 5
 
 # 이미지 크기 지정
 image_w = 64
